@@ -32,6 +32,10 @@
   src: url("./fonts/GlacialIndifference-Bold.otf");
 }
 
+h1{
+  color: red;
+}
+
 .row .col {
   padding: 0px;
 }
