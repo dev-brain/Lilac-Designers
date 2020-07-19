@@ -9,104 +9,118 @@
     <script src="js/materialize.js"></script>
     <script src="js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <script src="js/fullpage.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Lilac Designers</title>
 </head>
 
 <body>
 
 
-    <section style="height: 100vh;">
-        <div>
+    <div id="fullpage">
+
+
+        <section class="section" style="height: 100vh;">
+            <div>
+                <div class="row">
+                    <div class="col s12 m6">
+
+                        <div id="rectangle">
+                            <div class="container">
+                                <h1 class="text-primary">
+                                    Lilac
+                                    <br>
+                                    Designers
+                                </h1>
+                                <p class="subtitle">
+                                    Web | Mobile | Design
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col s12 m6">
+                        <div class="container">
+                            <img src="images/screen_3x.jpg" alt="" width="100%" style="margin-top: -20px;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="height: 100vh; overflow: hidden;">
+            <div class="row" style="margin-top: 50px;margin-left: 30px;">
+                <div class="col s12 m6">
+
+                    <img src="images/two.jpg" alt="" id="sec2img1">
+                </div>
+
+                <div class="col s12 m6">
+                    <div style="margin: 100px 50px 0px 50px">
+                        <div class="center storypara">
+
+                            <h2 class="story">
+                                Lilac's Story
+                            </h2>
+                            <div class="container">
+                                <p class="storyData">
+                                    Freelancing Firm we are, Lilac Designers team persons has been part of over many
+                                    projects deployed in market with their high-quality designs.
+                                </p>
+                            </div>
+                        </div>
+                        <div style="margin-top: 50px;overflow: hidden;" class="center">
+                            <img src="images/three.jpg" alt="" width="70%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="height: 100vh; overflow: hidden;">
             <div class="row">
-                <div class="col s12 m6">
-
-                    <div id="rectangle">
-                        <div class="container">
-                            <h1 class="text-primary">
-                                Lilac
-                                <br>
-                                Designers
-                            </h1>
-                            <p class="subtitle">
-                                Web | Mobile | Design
-                            </p>
-                        </div>
-                    </div>
+                <div class="col s3">
 
                 </div>
-                <div class="col s12 m6">
-                    <div class="container">
-                        <img src="images/screen_3x.jpg" alt="" width="100%" style="margin-top: -20px;">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="height: 100vh; overflow: hidden;">
-        <div class="row" style="margin-top: 50px;margin-left: 30px;">
-            <div class="col s12 m6">
-
-                <img src="images/two.jpg" alt="" id="sec2img1">
-            </div>
-
-            <div class="col s12 m6">
-                <div style="margin: 100px 50px 0px 50px">
-                    <div class="center storypara">
-
-                        <h2 class="story">
-                            Lilac's Story
-                        </h2>
-                        <div class="container">
-                            <p class="storyData">
-                                Freelancing Firm we are, Lilac Designers team persons has been part of over many
-                                projects deployed in market with their high-quality designs.
-                            </p>
-                        </div>
-                    </div>
-                    <div style="margin-top: 50px;overflow: hidden;" class="center">
-                        <img src="images/three.jpg" alt="" width="70%">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section style="height: 100vh; overflow: hidden;">
-        <div class="row">
-            <div class="col s3">
-
-            </div>
-            <div class="col s6">
-                <div class="center">
+                <div class="col s6">
                     <div class="center">
-                        <h2 class="story products">
-                            
-                            Lilac's Products
-                        </h2>
+                        <div class="center">
+                            <h2 class="story products">
+
+                                Lilac's Products
+                            </h2>
+                        </div>
                     </div>
                 </div>
+                <div class="col s3"></div>
             </div>
-            <div class="col s3"></div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 center">
-                <img src="images/p1.jpg" alt="" width="60%">
-            </div>
-            <div class="col s12 m4 center">
-                <img src="images/p2.jpg" alt="" width="60%">
-            </div>
-            <div class="col s12 m4 center">
-                <img src="images/p3.jpg" alt="" width="60%">
+            <div class="row">
+                <div class="col s12 m4 center">
+                    <img src="images/p1.jpg" alt="" width="60%">
+                </div>
+                <div class="col s12 m4 center">
+                    <img src="images/p2.jpg" alt="" width="60%">
+                </div>
+                <div class="col s12 m4 center">
+                    <img src="images/p3.jpg" alt="" width="60%">
 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
+
+    <script>
+        new fullpage('#fullpage', {
+            // sectionsColor: ['yellow', 'orange', '#C0C0C0'],
+        });
+    </script>
 </body>
 
 </html>
 
 <!-- Three.jpg  Evie Shaffer pexels -->
 <!-- One.jpg Henry & .co pexels  -->
+<!-- Products evie shaffer pexels -->
