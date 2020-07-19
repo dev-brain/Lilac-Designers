@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "glacial_indifferencebold";
+  src: url("../fonts/glacialindifference-bold-webfont.woff2") format("woff2"),
+    url("../fonts/glacialindifference-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "glacial_indifferenceregular";
+  src: url("../fonts/glacialindifference-regular-webfont.woff2") format("woff2"),
+    url("../fonts/glacialindifference-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary: #75c195;
+}
+
+.glaBold {
+  font-family: "glacial_indifferencebold";
+}
+
+@font-face {
+  font-family: "lolfont";
+  src: url("./fonts/Gilroy-Light.otf");
+}
+
+@font-face {
+  font-family: "headingFont";
+  src: url("./fonts/GlacialIndifference-Bold.otf");
+}
+
+.row .col {
+  padding: 0px;
+}
+
+.lilac {
+  font-family: "glacial_indifferencebold";
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(117, 193, 149);
+  text-decoration: none;
+}
+
+.subtitle {
+  font-family: "glacial_indifferenceregular";
+  font-size: xx-large;
+  width: max-content;
+  color: var(--primary);
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  font-size: 26.6667px;
+}
+
+#rectangle {
+  width: 90%;
+  /* height: 100px; */
+  padding: 5% 25% 5% 0px;
+  border: 6px solid var(--primary);
+  margin-left: -10px;
+  margin-top: 30%;
+}
+
+.text-primary {
+  color: var(--primary);
+  font-family: "glacial_indifferencebold";
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  font-size: 93.3333px;
+}
+
+#sec2img1{
+  max-width: -webkit-fill-available;
+  height: 100vh;
+  margin: 80px 40px 0px 40px;
+  padding-bottom: 40px;
+}
+
+.story{
+  margin: 80px 40px 0px 40px;
+}
+
+.storypara{
+  border-bottom: 10px solid var(--primary);
+  border-left: 10px solid var(--primary);
+  border-right: 10px solid var(--primary);
+  padding:30px
+}
