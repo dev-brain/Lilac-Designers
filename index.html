@@ -21,7 +21,7 @@
     <div id="fullpage">
 
 
-        <section class="section" style="height: 100vh;">
+        <section class="section" style="max-height: 100vh;overflow: hidden;">
             <div>
                 <div class="row">
                     <div class="col s12 m6">
@@ -50,8 +50,8 @@
             </div>
         </section>
 
-        <section class="section" style="height: 100vh; overflow: hidden;">
-            <div class="row" style="margin-top: 50px;margin-left: 30px;">
+        <section class="section" style="max-height: 100vh; overflow: hidden;">
+            <div class="row" style="margin-left: 30px;">
                 <div class="col s12 m6">
 
                     <img src="images/two.jpg" alt="" id="sec2img1">
@@ -72,26 +72,24 @@
                             </div>
                         </div>
                         <div style="margin-top: 50px;overflow: hidden;" class="center">
-                            <img src="images/three.jpg" alt="" width="70%">
+                            <img src="images/three.jpg" alt="" width="60%">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section" style="height: 100vh; overflow: hidden;">
+        <section class="section" style="max-height: 100vh; overflow: hidden;">
             <div class="row">
                 <div class="col s3">
 
                 </div>
                 <div class="col s6">
                     <div class="center">
-                        <div class="center">
-                            <h2 class="story products">
+                        <h2 class="story products" style="margin-top: 0;">
 
-                                Lilac's Products
-                            </h2>
-                        </div>
+                            Lilac Products
+                        </h2>
                     </div>
                 </div>
                 <div class="col s3"></div>
@@ -99,12 +97,66 @@
             <div class="row">
                 <div class="col s12 m4 center">
                     <img src="images/p1.jpg" alt="" width="60%">
+                    <h4 class="productName">
+                        Website
+                    </h4>
+                    <div class="container center">
+                        <p class="productDesc center">
+                            Perfectly designed websites, static and dynamic. Wordpress and hard coded. We deliver both.
+                        </p>
+                    </div>
                 </div>
                 <div class="col s12 m4 center">
                     <img src="images/p2.jpg" alt="" width="60%">
+                    <h4 class="productName">
+                        Mobile Applications
+                    </h4>
+                    <div class="container">
+                        <p class="productDesc">
+                            We Deliver for every platform IOS or Android. Awesomely Designed and light weight
+                            applications.
+                        </p>
+                    </div>
                 </div>
                 <div class="col s12 m4 center">
                     <img src="images/p3.jpg" alt="" width="60%">
+                    <h4 class="productName">
+                        Desktop Applications
+                    </h4>
+                    <div class="container">
+                        <p class="productDesc">
+                            Desktop Applications for MacOS, Windows and Linux. We deliver all.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" style="max-height: 100vh;overflow: hidden;">
+            <div>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="container">
+                            <img src="images/screen_3x.jpg" alt="" width="100%" style="margin-top: -20px;">
+
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+
+                        <div id="rectangleContact">
+                            <div class="container">
+                                <h1 class="right text-primary-contact">
+                                    Get in touch
+                                </h1>
+                                <p class="subtitleContact">
+                                    Web | Mobile | Design
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
             </div>
@@ -115,6 +167,7 @@
     <script>
         new fullpage('#fullpage', {
             // sectionsColor: ['yellow', 'orange', '#C0C0C0'],
+            fadingEffect:'sections'
         });
     </script>
 </body>
